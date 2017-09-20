@@ -10,9 +10,10 @@ module.exports = {
   }, // :normalizeEntityName
 
   afterInstall: function(options) {
-    return this.addBowerPackagesToProject([
-      {name: 'AdminLTE', target: 'admin-lte#^2.3.8'}
-    ]);
+    return this.addBowerPackagesToProject([{
+      name: 'admin-lte',
+      target: 'admin-lte#^2.3.11'
+    }]);
   } // :afterInstall
 
 }; // module.exports
