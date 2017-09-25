@@ -12,7 +12,7 @@ module.exports = {
   afterInstall: function(options) {
     return this.addBowerPackagesToProject([{
       name: 'admin-lte',
-      target: 'admin-lte#^2.3.11'
+      target: 'v2.4.0-rc'
     }]);
   } // :afterInstall
 
